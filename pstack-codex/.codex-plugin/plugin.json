@@ -1,0 +1,13 @@
+{
+  "name": "pstack-codex",
+  "version": "0.1.0",
+  "description": "Native Codex edition of pstack engineering workflows.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "pstack for Codex",
+    "shortDescription": "Rigorous engineering workflows for Codex.",
+    "developerName": "Jesper Isaksen",
+    "category": "Developer Tools",
+    "logo": "./assets/logo.png"
+  }
+}
