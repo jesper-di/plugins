@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "pstack-codex",
+  "version": "0.1.0",
+  "description": "Native Codex edition of pstack: deliberate engineering, design alternatives, independent review, and verified work.",
+  "author": { "name": "Jesper Isaksen; adapted from Lauren Tan's pstack" },
+  "repository": "https://github.com/jesper-di/plugins",
+  "license": "MIT",
+  "keywords": ["engineering", "skills", "review", "verification", "codex"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "pstack for Codex",
+        "shortDescription": "Rigorous engineering workflows for Codex.",
+        "developerName": "Jesper Isaksen",
+        "category": "Developer Tools",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
